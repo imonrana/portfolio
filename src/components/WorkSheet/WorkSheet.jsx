@@ -8,7 +8,7 @@ import { FaCheck } from "react-icons/fa";
 
 const WorkSheet = () => {
   return (
-    <section className="mt-[120px] mb-[154px]">
+    <section className="my-[160px]">
       <div className="w-container mx-auto">
         {/* card items  */}
         <div className="flex justify-between items-stretch">
@@ -18,7 +18,7 @@ const WorkSheet = () => {
             <div>
               <HiOutlineCog6Tooth className="text-[5.5625rem] text-primary" />
             </div>
-            <h6 className="font-popins font-semibold text-[1.3125rem] text-[#FFFFFF] mt-[46px]">
+            <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Deeper Skill set
             </h6>
             <ul className="font-popins font-normal text-base text-[#B4AFC6] mt-4 space-y-4">
@@ -48,7 +48,7 @@ const WorkSheet = () => {
                 <span>
                   <FaCheck />
                 </span>
-                Firebase Intregation
+                Figma Template Design
               </li>
               <li className="flex items-center gap-x-1.5 ">
                 {" "}
@@ -67,7 +67,7 @@ const WorkSheet = () => {
             <div>
               <FaToolbox className="text-[5.5625rem] text-primary" />
             </div>
-            <h6 className="font-popins font-semibold text-[1.3125rem] text-[#FFFFFF] mt-[46px]">
+            <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Creative Work
             </h6>
             <p className="font-popins font-normal text-base text-[#B4AFC6] mt-[16px] text-justify">
@@ -85,7 +85,7 @@ const WorkSheet = () => {
             <div>
               <IoDiamondOutline className="text-[5.5625rem] text-primary" />
             </div>
-            <h6 className="font-popins font-semibold text-[1.3125rem] text-[#FFFFFF] mt-[46px]">
+            <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Strong Dedication
             </h6>
             <p className="font-popins font-normal text-base text-[#B4AFC6] mt-[16px] text-justify">

@@ -1,8 +1,8 @@
 import "./App.css";
 
 import { Route,  createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router";
-import Root from "./components/Root/Root";
-import Home from "./components/Pages/Home/Home";
+import Root from "./layout/Root/Root";
+import Home from "./Pages/Home/Home";
 
 function App() {
 

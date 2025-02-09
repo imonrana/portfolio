@@ -18,7 +18,7 @@ const Navbar = () => {
 
         {/* menu */}
 
-        <div  className='text-[#FFFFFF] flex items-center gap-x-[38px]'>
+        <div  className='text-secondary flex items-center gap-x-[38px]'>
             <ul className='flex gap-x-[22px] font-inter font-normal text-base relative after:contents-[""] after:absolute after:bg-[#FCFCFC] after:w-[1px] after:h-[20px] after:top-1/2 after:-right-5 after:-translate-y-1/2' >
                 <li className='hover:text-[#00C0FF] transition-all duration-500'>
                   <NavLink to="/" className={({ isActive }) =>isActive ? "text-[#00C0FF] font-bold" : ""}>

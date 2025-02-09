@@ -7,6 +7,7 @@
     --font-popins: "Poppins", serif;
     --font-inter: "Inter", serif;
     --color-primary: #00C0FF;
+    --color-secondary: #FFFFFF;
     --background-image-bodyImg: url('./assets/Main_Background.png');
 
     --animate-typeWriter: typeWriter 7s  steps(16) infinite  ;
@@ -20,3 +21,4 @@
     }
   }
 
+ 

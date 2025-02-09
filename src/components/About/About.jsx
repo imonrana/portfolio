@@ -1,14 +1,15 @@
 import React from "react";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import SectionTitle from "../Ui/SectionTitle/SectionTitle";
+import Button from "../Ui/Button/Button";
 
 import aboutModle from "../../assets/about_img_imon.png";
 import aboutImglaptop from "../../assets/about_img_two.png";
 
+
 import { SlBadge } from "react-icons/sl";
-import Button from "../Button/Button";
 const About = () => {
   return (
-    <section className="pb-[160px]">
+    <section>
       <div className="w-container mx-auto">
         <SectionTitle
           subTitle="About Me"
@@ -24,16 +25,16 @@ const About = () => {
           </figure>
           <div className="absolute top-[68px] left-[-120px] h-[110px] w-[110px] bg-primary rounded-xl text-7xl "><SlBadge className="text-white m-auto mt-3" /></div>
              {/* succes year */}
-             <div className="absolute bottom-7 right-5 text-[#FFFFFF] font-popins font-semibold text-lg flex gap-x-3 items-center">
-                <h6 className="text-3xl">2+ </h6>
-                <p> Successful <span className="block"> Year </span></p>
+             <div className="absolute bottom-6 right-7 text-secondary font-popins font-semibold  flex gap-x-3 items-center">
+                <h6 className="text-3xl relative after:absolute after:contents-[''] after:h-[100%] after:w-2 after:bg-primary after:top-0 after:-left-3 ">2+ </h6>
+                <p className="mt-5 text-base"> Successful <span className="block"> Year </span></p>
              </div>
           </div>
 
 
           {/* About info */}
           <div className="w-[535px] font-popins ">
-            <h6 className="font-semibold text-3xl text-[#FFFFFF]">
+            <h6 className="font-semibold text-3xl text-secondary">
               About me
             </h6>
             <p className="font-normal text-base text-[#B4AFC6] w-[432px] text-justify mt-5 mb-10">
@@ -44,7 +45,7 @@ const About = () => {
 
             <table>
                 <tbody>
-                    <tr className="font-popins text-[#FFFFFF] text-lg font-semibold">
+                    <tr className="font-popins text-secondary text-lg font-semibold">
                      <td className="border border-[#B4AFC6]">
                         <ul className="p-3 space-y-3">
                         <li>

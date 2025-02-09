@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import bannerImg from "../../assets/banner_img.png"
-import Button from '../Button/Button'
-
+import Button from '../Ui/Button/Button';
 import Tilt from 'react-parallax-tilt';
+
 const Banner = () => {
   const [typeTextData, setTypeTextData] = useState("Frontend Developer")
   const typeData = ["Frontend Developer", "React.js Developer", "Web Designer"];
@@ -28,8 +28,8 @@ useEffect(()=>{
         <div className='w-container mx-auto h-[calc(100vh-169px)]'>
             <div className='flex justify-between items-center mt-[60px] ]'>
             <header>
-                <h1 className=' text-[#FFFFFF] font-popins font-semibold text-[4.6875rem]'>Md Imon <span className='text-primary'>Rana</span> </h1>
-                <p className='font-popins font-medium text-[1.9375rem] text-[#FFFFFF] w-[0ch] whitespace-nowrap overflow-hidden animate-typeWriter delay-75 border-r-2 border-white   '>{typeTextData}</p>
+                <h1 className=' text-secondary font-popins font-semibold text-[4.6875rem]'>Md Imon <span className='text-primary'>Rana</span> </h1>
+                <p className='font-popins font-medium text-[1.9375rem] text-secondary w-[0ch] whitespace-nowrap overflow-hidden animate-typeWriter delay-75 border-r-2 border-white   '>{typeTextData}</p>
                  <Button className='mt-[30px] cursor-pointer'>Get Connected</Button>
                 
             </header>
