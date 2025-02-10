@@ -4,16 +4,18 @@ import WorkSheet from '../../components/WorkSheet/WorkSheet'
 import About from '../../components/About/About'
 import Skills from '../../components/Skills/Skills'
 import Services from '../../components/Services/Services'
+import Rusume from '../../components/Resume/Rusume'
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Banner/>
       <WorkSheet/>
       <About/>
       <Skills/>
       <Services/>
-    </div>
+      <Rusume/>
+    </>
   )
 }
 

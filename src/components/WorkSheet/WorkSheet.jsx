@@ -21,7 +21,7 @@ const WorkSheet = () => {
             <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Deeper Skill set
             </h6>
-            <ul className="font-popins font-normal text-base text-[#B4AFC6] mt-4 space-y-4">
+            <ul className="font-popins font-normal text-base text-info mt-4 space-y-4">
               <li className="flex items-center gap-x-1.5">
                 {" "}
                 <span>
@@ -70,7 +70,7 @@ const WorkSheet = () => {
             <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Creative Work
             </h6>
-            <p className="font-popins font-normal text-base text-[#B4AFC6] mt-[16px] text-justify">
+            <p className="font-popins font-normal text-base text-info mt-[16px] text-justify">
               create dynamic web pages with HTML, CSS, Bootstrapt, Tailwind
               csss, JavaScript, React.js, Firebase, and React.js echo system
               apply essential programming concepts an appropriate web hosting
@@ -88,7 +88,7 @@ const WorkSheet = () => {
             <h6 className="font-popins font-semibold text-[1.3125rem] text-secondary mt-[46px]">
               Strong Dedication
             </h6>
-            <p className="font-popins font-normal text-base text-[#B4AFC6] mt-[16px] text-justify">
+            <p className="font-popins font-normal text-base text-info mt-[16px] text-justify">
               Having a positive attitude can help you build a more uplifting
               work environment. Dedicated employees are excited to start the
               workday, seeing all the potential possibilities of their hard

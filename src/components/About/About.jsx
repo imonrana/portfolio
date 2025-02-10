@@ -37,7 +37,7 @@ const About = () => {
             <h6 className="font-semibold text-3xl text-secondary">
               About me
             </h6>
-            <p className="font-normal text-base text-[#B4AFC6] w-[432px] text-justify mt-5 mb-10">
+            <p className="font-normal text-base text-info w-[432px] text-justify mt-5 mb-10">
               As a web developer, my objective is to make a positive impact on
               clients, co-workers, and the Internet using my skills and
               experience to design compelling and attractive websites.
@@ -50,15 +50,15 @@ const About = () => {
                         <ul className="p-3 space-y-3">
                         <li>
                             <span>Name</span>
-                            <p className="font-normal text-base text-[#B4AFC6]"> Md. Imon Rana</p>
+                            <p className="font-normal text-base text-info"> Md. Imon Rana</p>
                         </li>
                         <li>
                             <span>E-mail</span>
-                            <p className="font-normal text-base text-[#B4AFC6]"> info.imon@yahoo.com</p>
+                            <p className="font-normal text-base text-info"> info.imon@yahoo.com</p>
                         </li>
                         <li>
                             <span>Phone</span>
-                            <p className="font-normal text-base text-[#B4AFC6]"> +8801762-561353</p>
+                            <p className="font-normal text-base text-info"> +8801762-561353</p>
                         </li>
                     </ul>
                         </td>
@@ -67,15 +67,15 @@ const About = () => {
                         <ul className="p-5 space-y-3">
                         <li>
                             <span>Address</span>
-                            <p className="font-normal text-base text-[#B4AFC6]"> Dhaka, Bangladesh</p>
+                            <p className="font-normal text-base text-info"> Dhaka, Bangladesh</p>
                         </li>
                         <li>
                             <span>Degree</span>
-                            <p className="font-normal text-base  text-[#B4AFC6]"> Diploma in Computer Engineering.</p>
+                            <p className="font-normal text-base  text-info"> Diploma in Computer Engineering.</p>
                         </li>
                         <li>
                             <span>Freelance</span>
-                            <p className="font-normal text-base text-[#B4AFC6]"> Available</p>
+                            <p className="font-normal text-base text-info"> Available</p>
                         </li>
                     </ul>
                         </td>
