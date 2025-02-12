@@ -1,277 +1,170 @@
-import React from 'react'
-import webDesignProjectOne from "../../assets/webDesignProjectOne.png"
-import applandingProject from "../../assets/webDesignApplanding.png"
-import batlesProject from "../../assets/WebDesignbatlesProject.png"
-import gamerProject from "../../assets/webDesigngamer.png"
-import teaHoseProject from "../../assets/webDesignTeaHouse.png"
-import fruitBrustProject from "../../assets/webDesignFruitBrust.png"
-import inovateProject from "../../assets/webDesignInovate.png"
-import finsweetProject from "../../assets/webDesignFinsweet.png"
-import omahProject from "../../assets/webDesignOmahProject.png"
-import queryProject from "../../assets/webDesignQuery.png"
+import React from "react";
+import ProjectCard from "./ProjectCard";
 
+import webDesignProjectOne from "../../assets/webDesignProjectOne.png";
+import leaglSolution from "../../assets/legalSolution.png";
+import applandingProject from "../../assets/webDesignApplanding.png";
+import batlesProject from "../../assets/WebDesignbatlesProject.png";
+import gamerProject from "../../assets/webDesigngamer.png";
+import teaHoseProject from "../../assets/webDesignTeaHouse.png";
+import fruitBrustProject from "../../assets/webDesignFruitBrust.png";
+import inovateProject from "../../assets/webDesignInovate.png";
+import finsweetStellarProject from "../../assets/webDesignFinsweetStellar.png";
+import finsweetProject from "../../assets/webDesignFinsweet.png";
+import omahProject from "../../assets/webDesignOmahProject.png";
+import queryProject from "../../assets/webDesignQuery.png";
+import bangladesh from "../../assets/bangladesh.png";
 
+const cardData = [
+  {
+    img: webDesignProjectOne,
+    alt: "webDesignProjectOne",
+    title: "Valentina",
+    icons: ["html", "css", "bootstrapt"],
+    repoLink: "https://github.com/imonrana/fast-project",
+    liveLink: "https://imonrana.github.io/fast-project/",
+    scrollY: "hover:-translate-y-[75%]",
+  },
 
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { FaBootstrap } from "react-icons/fa";
-import { FaEye } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { IoLogoSass } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
+  {
+    img: applandingProject,
+    alt: "applandingProject",
+    title: "App Landing",
+    icons: ["html", "sass", "bootstrapt"],
+    repoLink: "https://github.com/imonrana/app_landing_project",
+    liveLink: "https://imonrana.github.io/app_landing_project/",
+    scrollY: "hover:-translate-y-[75%]",
+  },
+
+  {
+    img: finsweetProject,
+    alt: "finsweetProject",
+    title: "Finsweet",
+    icons: ["html", "css", "bootstrapt"],
+    repoLink: "https://github.com/imonrana/finsweet",
+    liveLink: "https://imonrana.github.io/finsweet/",
+    scrollY: "hover:-translate-y-[80%]",
+  },
+
+  {
+    img: batlesProject,
+    alt: "batlesProject",
+    title: "Batles",
+    icons: ["html", "css"],
+    repoLink: "https://github.com/imonrana/batles-project",
+    liveLink: "https://imonrana.github.io/batles-project/",
+    scrollY: "hover:-translate-y-[59%]",
+  },
+
+  {
+    img: leaglSolution,
+    alt: "leaglSolution",
+    title: "Justice",
+    icons: ["html", "css", "bootstrapt"],
+    repoLink: "https://imonrana.github.io/justice-legal-solution-bootstrap/",
+    liveLink: "https://github.com/imonrana/justice-legal-solution-bootstrap",
+    scrollY: "hover:-translate-y-[70%]",
+  },
+
+  {
+    img: finsweetStellarProject,
+    alt: "finsweetStellarProject",
+    title: "Finsweet-Stellar",
+    icons: ["html", "css", "bootstrapt"],
+    repoLink: "https://github.com/imonrana/finsweet-stellar",
+    liveLink: "https://imonrana.github.io/finsweet-stellar/",
+    scrollY: "hover:-translate-y-[80%]",
+  },
+
+  {
+    img: gamerProject,
+    alt: "gamerProject",
+    title: "Gamer",
+    icons: ["html", "css"],
+    repoLink: "https://github.com/imonrana/B8A2-Gamer-Zone",
+    liveLink: "https://imonrana.github.io/B8A2-Gamer-Zone/",
+    scrollY: "hover:-translate-y-[59%]",
+  },
+
+  {
+    img: inovateProject,
+    alt: "inovateProject",
+    title: "Inovate",
+    icons: ["html", "css", "bootstrapt"],
+    repoLink: "https://github.com/imonrana/innovate",
+    liveLink: "https://imonrana.github.io/innovate/",
+    scrollY: "hover:-translate-y-[82%]",
+  },
+
+  {
+    img: teaHoseProject,
+    alt: "teaHoseProject",
+    title: "Tea House",
+    icons: ["html", "css", "tailwind"],
+    repoLink: "https://github.com/imonrana/tea-house-with-daisy-ui",
+    liveLink: "https://imonrana.github.io/tea-house-with-daisy-ui/",
+    scrollY: "hover:-translate-y-[65%]",
+  },
+
+  {
+    img: fruitBrustProject,
+    alt: "fruitBrustProject",
+    title: "Friut Brust",
+    icons: ["html", "css", "tailwind"],
+    repoLink: "https://github.com/imonrana/B8A3-fruit-brust",
+    liveLink: "https://imonrana.github.io/B8A3-fruit-brust/",
+    scrollY: "hover:-translate-y-[59%]",
+  },
+
+  {
+    img: omahProject,
+    alt: "omahProject",
+    title: "Omah",
+    icons: ["html", "css"],
+    repoLink: "https://github.com/imonrana/omah",
+    liveLink: "https://imonrana.github.io/omah/",
+    scrollY: "hover:-translate-y-[63%]",
+  },
+
+  {
+    img: queryProject,
+    alt: "queryProject",
+    title: "Query",
+    icons: ["html", "css"],
+    repoLink: "https://github.com/imonrana/qwery",
+    liveLink: "https://imonrana.github.io/qwery/",
+    scrollY: "hover:-translate-y-[70%]",
+  },
+  {
+    img: bangladesh,
+    alt: "bangladesh",
+    title: "Bangladesh 2.0",
+    icons: ["html", "css"],
+    repoLink: "https://github.com/imonrana/bangladesh-2.0",
+    liveLink: "https://imonrana.github.io/bangladesh-2.0/",
+    scrollY: "hover:-translate-y-[74%]",
+  },
+];
+
 const WebDesign = () => {
   return (
-    <div className='flex justify-between flex-wrap gap-y-14'>
-        {/* project card one */}
-        <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[75%] transition-normal duration-[6s]' src={webDesignProjectOne} alt="webDesignProjectOne" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Valentina</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <FaBootstrap title = "Bootstrapt" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
+    <div className="flex justify-between flex-wrap gap-y-14">
+      {cardData.map((card, index) => (
+        <div key={index}>
+          <ProjectCard
+            img={card.img}
+            alt={card.alt}
+            title={card.title}
+            icons={card.icons}
+            repoLink={card.repoLink}
+            liveLink={card.liveLink}
+            scrollY={card.scrollY}
+          />
         </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/fast-project/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/fast-project" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-            
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card two */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[75%] transition-normal duration-[6s]' src={applandingProject} alt="webDesignProjectOne" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>App Landing</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-4 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoSass title = "SASS" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <FaBootstrap title = "Bootstrapt" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/app_landing_project/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/app_landing_project" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-            
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card three */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[59%] transition-normal duration-[6s]' src={batlesProject} alt="batlesProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Batles</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/fast-project/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/fast-project" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-            
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card four */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[59%] transition-normal duration-[6s]' src={gamerProject} alt="gamerProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Gamer</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/B8A2-Gamer-Zone/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/B8A2-Gamer-Zone" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-            
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card five */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[65%] transition-normal duration-[6s]' src={teaHoseProject} alt="TeaHoseProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Tea House</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <RiTailwindCssFill title = "Tailwind" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/tea-house-with-daisy-ui/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/tea-house-with-daisy-ui" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card six */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[59%] transition-normal duration-[6s]' src={fruitBrustProject} alt="FruitBrustProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Friut Brust</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <RiTailwindCssFill title = "Tailwind" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/B8A3-fruit-brust/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/B8A3-fruit-brust" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card seven */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[82%] transition-normal duration-[6s]' src={inovateProject} alt="FruitBrustProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Inovate</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <FaBootstrap title = "Bootstrapt" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/innovate/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/innovate" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
-          {/* project card Eight */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[80%] transition-normal duration-[6s]' src={finsweetProject} alt="finsweetProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Finsweet</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        <FaBootstrap title = "Bootstrapt" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/finsweet-stellar/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/finsweet-stellar" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
-          {/* project card Nine */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[63%] transition-normal duration-[6s]' src={omahProject} alt="omahProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Omah</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/omah/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/omah" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
-
-          {/* project card Ten */}
-          <div className='rounded-lg  bg-[#3A2B71] w-fit  '>
-        <figure className='w-[340px] h-[340px] overflow-hidden relative rounded-lg cursor-pointer '>
-            <img className='absolute top-0 left-0 hover:-translate-y-[70%] transition-normal duration-[6s]' src={queryProject} alt="queryProject" />
-        </figure>
-       <figcaption className='font-popins text-secondary px-5 py-4 space-y-5'>
-        <p className='text-xl font-semibold'>Query</p>
-        <div className='flex justify-between text-3xl text-info'>
-        <div className=' flex gap-x-2 '>
-        <FaHtml5 title='Html' className='cursor-pointer hover:text-secondary  transition-all duration-300'/>
-        <IoLogoCss3 title = "Css" className='cursor-pointer  hover:text-secondary transition-all duration-300' />
-        </div>
-        <div className='flex gap-x-4'>
-            <a href="https://imonrana.github.io/qwery/" target='_blank' title='Live view' className='hover:text-secondary transition-all duration-300'>
-                <FaEye  />
-            </a>
-            <a href="https://github.com/imonrana/qwery" target='_blank' title='GitHub Repo' className=' hover:text-secondary  transition-all duration-300'>
-            <FaGithub />
-            </a>
-        </div>
-        </div>
-       </figcaption>
-        </div>
+      ))}
     </div>
-  )
-}
 
-export default WebDesign
+  );
+};
+
+export default WebDesign;
