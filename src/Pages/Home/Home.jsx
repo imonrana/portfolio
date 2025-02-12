@@ -5,6 +5,9 @@ import About from '../../components/About/About'
 import Skills from '../../components/Skills/Skills'
 import Services from '../../components/Services/Services'
 import Rusume from '../../components/Resume/Rusume'
+import Training from '../../components/Training/Training'
+import Protfolio from '../../components/Protfolio/Protfolio'
+import Testomonial from '../../components/Testomonial/Testomonial'
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
       <Skills/>
       <Services/>
       <Rusume/>
+      <Training/>
+      <Protfolio/>
+      <Testomonial/>
     </>
   )
 }

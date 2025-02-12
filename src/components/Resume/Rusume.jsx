@@ -1,9 +1,10 @@
 import React from 'react'
 import SectionTitle from '../Ui/SectionTitle/SectionTitle'
+import Experience from './Experience'
+import Education from './Education'
 
 
-import Experience from '../Ui/Experience/Experience';
-import Education from '../Ui/Education/Education';
+
 
 const Rusume = () => {
   return (
