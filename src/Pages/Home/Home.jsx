@@ -7,7 +7,9 @@ import Services from '../../components/Services/Services'
 import Rusume from '../../components/Resume/Rusume'
 import Training from '../../components/Training/Training'
 import Protfolio from '../../components/Protfolio/Protfolio'
-import Testomonial from '../../components/Testomonial/Testomonial'
+import Testimonial from '../../components/Testimonial/Testimonial'
+import SkillsCard from '../../components/SkillsCard/SkillsCard'
+import Contact from '../../components/Contact/Contact'
 
 const Home = () => {
   return (
@@ -20,7 +22,9 @@ const Home = () => {
       <Rusume/>
       <Training/>
       <Protfolio/>
-      <Testomonial/>
+      <Testimonial/>
+      <SkillsCard/>
+      <Contact/>
     </>
   )
 }
