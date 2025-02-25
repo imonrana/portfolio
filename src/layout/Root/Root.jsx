@@ -6,7 +6,7 @@ import Footer from '../../components/Footer/Footer';
 
 const Root = () => {
   return (
-    <div className='bg-bodyImg bg-cover bg-center'>
+    <div className='bg-bodyImg bg-center'>
         <Navbar/>
         <main>
         <Outlet />
