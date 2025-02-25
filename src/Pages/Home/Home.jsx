@@ -10,6 +10,7 @@ import Protfolio from '../../components/Protfolio/Protfolio'
 import Testimonial from '../../components/Testimonial/Testimonial'
 import SkillsCard from '../../components/SkillsCard/SkillsCard'
 import Contact from '../../components/Contact/Contact'
+import NewsLetter from '../../components/NewsLetter/NewsLetter'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <Testimonial/>
       <SkillsCard/>
       <Contact/>
+      <NewsLetter/>
     </>
   )
 }
