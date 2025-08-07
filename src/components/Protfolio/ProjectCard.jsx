@@ -13,6 +13,7 @@ import { IoLogoFirebase } from "react-icons/io5";
 const ProjectCard = (props) => {
   const { img, alt, title, icons, repoLink, liveLink, scrollY, imgh } = props;
 
+  // get icons function
   const getIcons = (icons) => {
     switch (icons) {
       case "html":
@@ -82,7 +83,7 @@ const ProjectCard = (props) => {
 
   return (
     <div className="rounded-lg  bg-[#3A2B71] w-fit   ">
-      <figure className="w-[340px] h-[340px] overflow-hidden  relative rounded-lg cursor-pointer ">
+      <figure className="w-[270px] h-[270px] md:w-[340px] md:h-[340px] overflow-hidden  relative rounded-lg cursor-pointer ">
         <img
           className={`absolute top-0 left-0  transition-all duration-[6s] object-contain  ${scrollY} ${imgh} `}
           src={img}

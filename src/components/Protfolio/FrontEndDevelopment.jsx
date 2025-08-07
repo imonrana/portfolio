@@ -69,7 +69,7 @@ const FrontEndDevelopment = () => {
   return (
     <div className="flex justify-between flex-wrap gap-y-14">
       {cardData.map((card, index) => (
-        <div key={index}>
+        <div key={index} className="mx-auto md:m-0">
           <ProjectCard
             img={card.img}
             alt={card.alt}

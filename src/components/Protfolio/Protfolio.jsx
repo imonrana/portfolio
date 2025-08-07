@@ -11,14 +11,14 @@ const Protfolio = () => {
   }
 
   return (
-    <section className="my-[160px]">
-      <div className="w-container mx-auto">
+    <section className="my-[60px] md:my-[160px]">
+      <div className="p-5 lg:p-0 lg:w-container mx-auto">
         <SectionTitle subTitle="Portfolio" title="What I Do for My Clients" />
         {/* 
             ===========navs tabs start==========
              */}
         {/* navs start */}
-        <div className="font-popins font-semibold text-lg  space-x-10 mx-auto w-fit mt-16">
+        <div className="font-popins font-semibold text-sm md:text-xl  space-x-4  md:space-x-10 mx-auto  w-fit mt-16">
           <button
             onClick={() => handelTabs("all")}
             className={`${
@@ -38,7 +38,7 @@ const Protfolio = () => {
           <button
             onClick={() => handelTabs("frontend")}
             className={`${
-              showTab === "frontend" ? "text-primary" : "text-secondary"
+              showTab === "frontend" ? "text-primary text-[10px] md:text-xl" : "text-secondary  text-[10px] md:text-xl"
             } transition-all duration-300 cursor-pointer`}
           >
             Frontend Development

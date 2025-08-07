@@ -4,14 +4,51 @@ import testiProfileImg from "../../assets/testiProfile.png"
 import testiImgTwo from "../../assets/about_img_imon.png"
 import testiImgThree from "../../assets/testiImgThree.jpg"
 
+import { FaAngleLeft , FaAngleRight} from "react-icons/fa6";
+
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialCard from './TestimonialCard';
 
 
+// Next Arrow
+function SimpleNextArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+      className={`${className} before:!content-none cursor-pointer !bg-gray-300 w-fit rounded-2xl absolute !top-1/2 md:!top-2/3  !-translate-y-2/3 !-right-5 md:!-right-2 lg:!-right-5   p-1`}
+      onClick={onClick}
+    >
+      <span style={{ color: "black", fontSize: "16px",}}><FaAngleRight /></span> 
+    </div>
+  );
+}
+
+// Prev Arrow
+
+function SimplePrevArrow(props) {
+  const { className, onClick } = props;
+  return (
+    <div
+            className={`${className} before:!content-none cursor-pointer !bg-gray-300 w-fit rounded-2xl absolute !top-1/2 md:!top-2/3  !-left-4 md:!-left-2 lg:-left-5 !-translate-y-2/3  p-1`}
+      onClick={onClick}
+    >
+      <span style={{ color: "black", fontSize: "16px",}}><FaAngleLeft /></span> 
+    </div>
+  );
+}
+
+
+
+
+
+
 const Testimonial = () => {
 const [currentSlide, setCurrentSlide] = useState(0);
+
+
   const settings = {
     dots: true,
     infinite: true,
@@ -21,6 +58,9 @@ const [currentSlide, setCurrentSlide] = useState(0);
     cssEase: "linear",
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows:true,
+    nextArrow:<SimpleNextArrow/>,
+    prevArrow:<SimplePrevArrow/>,
     afterChange: current => setCurrentSlide(current),
     appendDots: dots => (
       <div>
@@ -74,7 +114,7 @@ const testiInfo = [
 
   return (
     <section>
-      <div className="w-container mx-auto">
+      <div className="p-5 lg:p-0 lg:w-container mx-auto">
         <SectionTitle subTitle = "Testimonials" title= "What Clients Say"/>
 
         <div className="slider-container">

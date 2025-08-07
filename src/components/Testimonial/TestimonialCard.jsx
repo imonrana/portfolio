@@ -4,9 +4,9 @@ const TestimonialCard = (props) => {
     const {testiBody, testiProfile, alt, profileName, profileTitle, id} = props;
 
   return (
-    <div key={id} className='font-popins mt-14 w-[685px] mx-auto'>
-        <div className='w-fit mx-auto'><FaQuoteLeft className='text-[4.6875rem] text-primary font-bold'/></div>
-        <div className='font-semibold text-lg text-secondary italic text-center mt-16'>{testiBody}</div>
+    <div key={id} className='font-popins mt-14  md:w-[700px] lg:w-[685px] mx-auto'>
+        <div className='w-fit mx-auto'><FaQuoteLeft className=' text-4xl md:text-[4.6875rem] text-primary font-bold'/></div>
+        <div className='md:font-semibold text-[16px] md:text-lg text-secondary italic text-center mt-16'>{testiBody}</div>
         <div className='flex items-center gap-x-5 mt-10 mx-auto w-fit'>
             <div className='w-[65px] h-[65px]  overflow-hidden rounded-full'>
             <img src={testiProfile} alt="alt"/>

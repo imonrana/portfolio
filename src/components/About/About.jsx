@@ -9,23 +9,25 @@ import aboutImglaptop from "../../assets/about_img_two.png";
 import { SlBadge } from "react-icons/sl";
 const About = () => {
   return (
-    <section>
-      <div className="w-container mx-auto">
+    <section className=" px-5 mt-[60px] lg:mt-[100px]">
+      <div className="  lg:w-container mx-auto">
         <SectionTitle
           subTitle="About Me"
           title="A Passionate Developer Who 
         Loves to Code"
         />
-        <div className="flex justify-end gap-x-14 mt-[74px]">
+        <div className="flex flex-col md:flex-row justify-end md:gap-x-5 lg:gap-x-14 mt-[50px] md:mt-[74px]">
           <div className="relative">
           <figure className="relative">
             <img src={aboutModle} alt="aboutModle" />
-            <img className="absolute top-[310px] left-[-141px]"
+            <img className="absolute bottom-0 lg:top-[310px] lg:left-[-110px] w-[100px]"
             src={aboutImglaptop} alt="aboutImglaptop" />
           </figure>
-          <div className="absolute top-[68px] left-[-120px] h-[110px] w-[110px] bg-primary rounded-xl text-7xl "><SlBadge className="text-white m-auto mt-3" /></div>
+          <div className="hidden lg:block absolute top-[68px] left-[-120px] h-[110px] w-[110px] bg-primary rounded-xl text-7xl ">
+            <SlBadge className="text-white m-auto mt-3" />
+          </div>
              {/* succes year */}
-             <div className="absolute bottom-6 right-7 text-secondary font-popins font-semibold  flex gap-x-3 items-center">
+             <div className="absolute bottom-0 md:bottom-[200px] lg:bottom-[150px] right-2 lg:right-7 text-secondary font-popins font-semibold  flex gap-x-3 items-center">
                 <h6 className="text-3xl relative after:absolute after:contents-[''] after:h-[100%] after:w-2 after:bg-primary after:top-0 after:-left-3 ">2+ </h6>
                 <p className="mt-5 text-base"> Successful <span className="block"> Year </span></p>
              </div>
@@ -33,56 +35,56 @@ const About = () => {
 
 
           {/* About info */}
-          <div className="w-[535px] font-popins ">
-            <h6 className="font-semibold text-3xl text-secondary">
+          <div className="md:w-[535px] font-popins mt-10 md:mt-0 ">
+            <h6 className="font-semibold text-2xl lg:text-3xl text-secondary text-center md:text-left">
               About me
             </h6>
-            <p className="font-normal text-base text-info w-[432px] text-justify mt-5 mb-10">
+            <p className="font-normal text-base text-info text-justify  m-auto my-5">
               As a web developer, my objective is to make a positive impact on
               clients, co-workers, and the Internet using my skills and
               experience to design compelling and attractive websites.
             </p>
 
-            <table>
+            <table className="m-auto">
                 <tbody>
-                    <tr className="font-popins text-secondary text-lg font-semibold">
-                     <td className="border border-[#B4AFC6]">
-                        <ul className="p-3 space-y-3">
+                    <tr className="font-popins text-secondary text-sm md:text-lg font-semibold">
+                     <td className="border border-[#B4AFC6] ">
+                        <ul className="p-2 md:p-3 space-y-3 w-[130px] md:w-auto">
                         <li>
                             <span>Name</span>
-                            <p className="font-normal text-base text-info"> Md. Imon Rana</p>
+                            <p className="font-normal  text-sm md:text-base text-info"> Md. Imon Rana</p>
                         </li>
                         <li>
                             <span>E-mail</span>
-                            <p className="font-normal text-base text-info"> info.imon@yahoo.com</p>
+                            <a href="mailto:info.imon@yahoo.com" className="font-normal text-sm  md:text-base  text-info"> info.imon@ yahoo.com</a>
                         </li>
                         <li>
                             <span>Phone</span>
-                            <p className="font-normal text-base text-info"> +8801762-561353</p>
+                            <a href="tel:01762561353" className="font-normal text-sm md:text-base text-info"> +8801762-561353</a>
                         </li>
                     </ul>
                         </td>
 
-                        <td className="border border-[#B4AFC6]">
-                        <ul className="p-5 space-y-3">
+                        <td className="border border-[#B4AFC6] ">
+                        <ul className="p-2 md:p-5 space-y-3 w-[130px] md:w-auto">
                         <li>
                             <span>Address</span>
-                            <p className="font-normal text-base text-info"> Dhaka, Bangladesh</p>
+                            <p className="font-normal  text-sm md:text-base text-info"> Dhaka, Bangladesh</p>
                         </li>
                         <li>
                             <span>Degree</span>
-                            <p className="font-normal text-base  text-info"> Diploma in Computer Engineering.</p>
+                            <p className="font-normal text-sm  md:text-base  text-info"> Diploma in Computer Engineering.</p>
                         </li>
                         <li>
                             <span>Freelance</span>
-                            <p className="font-normal text-base text-info"> Available</p>
+                            <p className="font-normal text-sm  md:text-base text-info"> Available</p>
                         </li>
                     </ul>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <Button className="mt-10 cursor-pointer">Download  CV</Button>
+            <Button className="mt-10 cursor-pointer block m-auto md:ml-0">Download  CV</Button>
           </div>
         </div>
       </div>

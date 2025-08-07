@@ -11,17 +11,17 @@ import { FaFigma } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <section>
-        <div className='w-container mx-auto'>
+    <section >
+        <div className='p-5 lg:p-0 lg:w-container mx-auto'>
             <SectionTitle subTitle="Services" title= "What I Do for My Clients"/>
 
-            <div className='flex justify-between mt-[90px] '>
+            <div className='flex flex-col gap-y-10  lg:gap-y-0 md:flex-wrap md:w-[650px]  md:flex-row md:gap-x-2 lg:gap-x-0 lg:w-auto  justify-between space-x-0 mt-[90px] '>
                 {/* 
                 ===========card one==========
                  */}
                
               <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                  <div className="bg-[#3A2B71] w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group">
+                  <div className="bg-[#3A2B71] md:w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group ">
                     <div className='bg-[#432D92] group-hover:bg-primary  w-20 h-20 rounded-full mx-auto relative transition-all duration-300 '>
                     <Icon path={mdiMonitorShimmer}   className=' w-[60px] h-[60px] text-[#00C0FF] group-hover:text-secondary absolute -top-[10px] -left-[20px] group-hover:top-1/2 group-hover:left-1/2 group-hover:-translate-x-1/2  group-hover:-translate-y-1/2 group-hover:w-[50px] group-hover:h-[50px] transition-all duration-300'/>
                     </div>
@@ -41,7 +41,7 @@ const Services = () => {
                 */}
                
                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                  <div className="bg-[#3A2B71] w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group">
+                  <div className="bg-[#3A2B71] md:w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group">
                     <div className='bg-[#432D92] group-hover:bg-primary w-20 h-20 rounded-full mx-auto relative transition-all duration-300'>
                     <Icon path={mdiDeveloperBoard}   className=' w-[60px] h-[60px] text-[#00C0FF] group-hover:text-secondary absolute -top-[10px] -left-[20px] group-hover:top-1/2 group-hover:left-1/2 group-hover:-translate-x-1/2  group-hover:-translate-y-1/2 group-hover:w-[50px] group-hover:h-[50px] transition-all duration-300'/>
                     </div>
@@ -61,7 +61,7 @@ const Services = () => {
                  */}
             
                 <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                  <div className="bg-[#3A2B71] w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group">
+                  <div className="bg-[#3A2B71] md:w-[320px] rounded-[30px]  py-[55px] px-7 h-full   group">
                     <div className='bg-[#432D92] group-hover:bg-primary w-20 h-20 rounded-full mx-auto relative transition-all duration-300'>
                     <FaFigma className='text-[3.75rem] text-[#00C0FF] group-hover:text-secondary absolute -top-[10px] -left-[20px] group-hover:top-1/2 group-hover:left-1/2 group-hover:-translate-x-1/2  group-hover:-translate-y-1/2 group-hover:text-[3.125rem] transition-all duration-300' />
                     </div>

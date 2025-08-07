@@ -24,18 +24,18 @@ useEffect(()=>{
 
 
   return (
-    <section >
-        <div className='w-container mx-auto h-[calc(100vh-169px)]'>
-            <div className='flex justify-between items-center mt-[60px] ]'>
-            <header>
-                <h1 className=' text-secondary font-popins font-semibold text-[4.6875rem]'>Md Imon <span className='text-primary'>Rana</span> </h1>
-                <p className='font-popins font-medium text-[1.9375rem] text-secondary w-[0ch] whitespace-nowrap overflow-hidden animate-typeWriter delay-75 border-r-2 border-white   '>{typeTextData}</p>
-                 <Button className='mt-[30px] cursor-pointer'>Get Connected</Button>
+    <section>
+        <div className=' p-5 mb-5 lg:mb-0 lg:p-0 lg:w-container mx-auto lg:h-[calc(100vh-169px)]'>
+            <div className='flex flex-col md:flex-row md:justify-between md:items-center md:mt-[60px] ]'>
+            <header className=' m-auto md:m-0 md:order-none order-2 '>
+                <h1 className=' text-secondary font-popins font-semibold  text-3xl md:text-[2.6875rem] lg:text-[4.6875rem]'>Md Imon <span className='text-primary'>Rana</span> </h1>
+                <p className='font-popins font-medium text-xl py-2 md:py-0  lg:text-[1.9375rem] text-secondary w-[0ch] whitespace-nowrap overflow-hidden animate-typeWriter delay-75 border-r-2 border-white   '>{typeTextData}</p>
+                 <Button className='mt-[30px] cursor-pointer block m-auto md:ml-0'>Get Connected</Button>
                 
             </header>
             <Tilt tiltMaxAngleX = {10} tiltMaxAngleY = {10}>
-            <figure>
-                <img  src={bannerImg} alt="bannerImg" />
+            <figure className='md:order-none order-1 ' >
+                <img   src={bannerImg} alt="bannerImg" className=' md:w-[300px] lg:w-auto mb-10  md:mb-0 m-auto md:m-0' />
             </figure>
             </Tilt>
             </div>
