@@ -27,7 +27,7 @@ const About = () => {
             <SlBadge className="text-white m-auto mt-3" />
           </div>
              {/* succes year */}
-             <div className="absolute bottom-0 md:bottom-[200px] lg:bottom-[150px] right-2 lg:right-7 text-secondary font-popins font-semibold  flex gap-x-3 items-center">
+             <div className="absolute bottom-0 md:bottom-[200px] lg:bottom-[100px] right-2 lg:right-7 text-secondary font-popins font-semibold  flex gap-x-3 items-center">
                 <h6 className="text-3xl relative after:absolute after:contents-[''] after:h-[100%] after:w-2 after:bg-primary after:top-0 after:-left-3 ">2+ </h6>
                 <p className="mt-5 text-base"> Successful <span className="block"> Year </span></p>
              </div>
@@ -51,15 +51,15 @@ const About = () => {
                      <td className="border border-[#B4AFC6] ">
                         <ul className="p-2 md:p-3 space-y-3 w-[130px] md:w-auto lg:w-[220px] xl:w-auto">
                         <li>
-                            <span>Name</span>
+                            <p>Name</p>
                             <p className="font-normal  text-sm md:text-base text-info"> Md. Imon Rana</p>
                         </li>
                         <li>
-                            <span>E-mail</span>
+                            <p>E-mail</p>
                             <a href="mailto:info.imon@yahoo.com" className="font-normal text-sm  md:text-base  text-info"> info.imon@ yahoo.com</a>
                         </li>
                         <li>
-                            <span>Phone</span>
+                            <p>Phone</p>
                             <a href="tel:01762561353" className="font-normal text-sm md:text-base text-info"> +8801762-561353</a>
                         </li>
                     </ul>
