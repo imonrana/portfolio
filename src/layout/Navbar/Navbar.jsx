@@ -27,7 +27,7 @@ const Navbar = () => {
  
   return (
     <nav className={`${navbg && "bg-[#1E1344]"} sticky top-0 z-20`}>
-        <div className=' px-5 lg:px-0  lg:w-container mx-auto flex flex-col md:flex-row md:justify-between md:items-center py-8'>
+        <div className=' px-5 lg:px-10 xl:px-0  xl:w-container mx-auto flex flex-col md:flex-row md:justify-between md:items-center py-8'>
         {/* logo */}
        <div className='w-full md:w-1/5 flex md:block justify-between items-center'>
             <img src={logo} alt="logo"/>

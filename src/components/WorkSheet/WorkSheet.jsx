@@ -9,12 +9,12 @@ import { FaCheck } from "react-icons/fa";
 const WorkSheet = () => {
   return (
     <section className="md:mt-[60px] mt-[0px]">
-      <div className=" p-5 lg:w-container mx-auto">
+      <div className=" p-5  xl:w-container mx-auto">
         {/* card items  */}
         <div className="flex flex-col md:flex-row gap-y-5 lg:gap-y-0 justify-between  md:flex-wrap items-stretch">
           {/* card one */}
           <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-          <div className="bg-[#3A2B71] md:w-[340px]  lg:w-[337px] rounded-[30px] p-5  md:py-[42px] md:px-7 h-full">
+          <div className="bg-[#3A2B71] md:w-[340px]  lg:w-[300px] xl:w-[337px] rounded-[30px] p-5  md:py-[42px] xl:px-7 h-full">
             <div>
               <HiOutlineCog6Tooth className="text-4xl md:text-[5.5625rem] text-primary" />
             </div>
@@ -60,7 +60,7 @@ const WorkSheet = () => {
 
           {/* card two */}
           <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-          <div className="bg-[#3A2B71] md:w-[340px] lg:w-[337px] rounded-[30px]  p-5 md:py-[42px] md:px-7 h-full">
+          <div className="bg-[#3A2B71] md:w-[340px] lg:w-[300px] xl:w-[337px] rounded-[30px]  p-5 md:py-[42px] md:px-7 h-full">
             <div>
               <FaToolbox className="text-4xl md:text-[5.5625rem] text-primary" />
             </div>
@@ -78,7 +78,7 @@ const WorkSheet = () => {
 
           {/* card three */}
           <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
-          <div className="bg-[#3A2B71] md:w-[340px] lg:w-[337px] rounded-[30px] p-5 md:py-[42px] md:px-7 h-full">
+          <div className="bg-[#3A2B71] md:w-[340px]  lg:w-[300px] xl:w-[337px] rounded-[30px] p-5 md:py-[42px] md:px-7 h-full">
             <div>
               <IoDiamondOutline className="text-4xl md:text-[5.5625rem] text-primary" />
             </div>

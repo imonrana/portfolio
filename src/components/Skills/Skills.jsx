@@ -153,7 +153,7 @@ return ()=>{
 
   return (
     <section className='my-[60px] lg:my-[160px]'>
-        <div className='p-5 lg:p-0 lg:w-container mx-auto'>
+        <div className='p-5 lg:p-0 lg-px-10 xl:w-container mx-auto'>
             <SectionTitle 
             subTitle="Skills"
             title = "I Work Hard to Improve My Skills Regularly"
@@ -162,13 +162,13 @@ return ()=>{
               {/* 
               ============== Progress bar start ============
               */}
-             <div  ref={skillsRef} className='font-popins font-medium text-lg text-secondary  md:flex  md:justify-around lg:justify-between mt-[90px]'>
+             <div  ref={skillsRef} className='font-popins font-medium text-lg text-secondary  sm:flex  sm:justify-around lg:gap-x-1 xl:justify-between mt-[90px]'>
 
               <div className='space-y-10 lg:space-y-[30px]'>
              <div className='relative'>
               <p className='mb-[11px]'>HTML</p>
               <label className='block absolute top-0 right-0' htmlFor="html">{htmlProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={htmlProgress} max={100} 
               ></progress>
              </div>
@@ -176,7 +176,7 @@ return ()=>{
              <div className='relative'>
               <p className='mb-[11px]'>Css</p>
               <label className='block absolute top-0 right-0' htmlFor="css">{cssProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={cssProgress} max={100} 
               ></progress>
              </div>
@@ -184,17 +184,17 @@ return ()=>{
              <div className='relative '>
               <p className='mb-[11px]'>Java Script</p>
               <label className='block absolute top-0 right-0' htmlFor="javaScript">{javaScriptProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={javaScriptProgress} max={100} 
               ></progress>
              </div>
              </div>
 
-             <div className='space-y-10 lg:space-y-[30px] mt-10 md:mt-0'>
+             <div className='space-y-10 lg:space-y-[30px] mt-10 sm:mt-0'>
              <div className='relative'>
               <p className='mb-[11px]'>Bootstrapt</p>
               <label className='block absolute top-0 right-0' htmlFor="bootstrapt">{bootstraptProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={bootstraptProgress} max={100} 
               ></progress>
              </div>
@@ -202,7 +202,7 @@ return ()=>{
              <div className='relative'>
               <p className='mb-[11px]'>Tailwind</p>
               <label className='block absolute top-0 right-0' htmlFor="tailwind">{tailwindProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={tailwindProgress} max={100} 
               ></progress>
              </div>
@@ -210,7 +210,7 @@ return ()=>{
              <div className='relative'>
               <p className='mb-[11px]'>React.js</p>
               <label className='block absolute top-0 right-0' htmlFor="react">{reactProgress}%</label>
-              <progress className='w-[250px] lg:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
+              <progress className='w-[250px]  lg:w-[350px] xl:w-[432px] h-[8px] appearance-none [&::-webkit-progress-bar]:bg-[#D9D9D9] [&::-webkit-progress-value]:bg-primary [&::-webkit-progress-bar]:rounded-[15px] [&::-webkit-progress-value]:rounded-l-[15px] [&::-moz-progress-bar]:bg-[#D9D9D9] [&::-moz-progress-value]:bg-primary [&::-moz-progress-bar]:rounded-[15px] [&::-moz-progress-value]:rounded-l-[15px]'
               value={reactProgress} max={100} 
               ></progress>
              </div>

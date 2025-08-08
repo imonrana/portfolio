@@ -12,7 +12,7 @@ import { FaFigma } from "react-icons/fa";
 const Services = () => {
   return (
     <section >
-        <div className='p-5 lg:p-0 lg:w-container mx-auto'>
+        <div className='p-5 lg:px-5 xl:p-0 xl:w-container mx-auto'>
             <SectionTitle subTitle="Services" title= "What I Do for My Clients"/>
 
             <div className='flex flex-col gap-y-10  lg:gap-y-0 md:flex-wrap md:w-[650px]  md:flex-row md:gap-x-2 lg:gap-x-0 lg:w-auto  justify-between space-x-0 mt-[90px] '>

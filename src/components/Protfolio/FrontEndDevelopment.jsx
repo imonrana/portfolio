@@ -67,7 +67,7 @@ const cardData = [
 
 const FrontEndDevelopment = () => {
   return (
-    <div className="flex justify-between flex-wrap gap-y-14">
+    <div className="flex justify-between lg:justify-evenly xl:justify-between flex-wrap gap-y-14 ">
       {cardData.map((card, index) => (
         <div key={index} className="mx-auto md:m-0">
           <ProjectCard

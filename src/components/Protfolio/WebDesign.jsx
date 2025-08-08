@@ -148,9 +148,9 @@ const cardData = [
 
 const WebDesign = () => {
   return (
-    <div className="flex justify-between flex-wrap gap-y-14">
+    <div className="flex justify-between lg:justify-evenly xl:justify-between flex-wrap gap-y-14">
       {cardData.map((card, index) => (
-        <div key={index} className="mx-auto md:m-0">
+        <div key={index} className={`mx-auto md:m-0 ${index == cardData.length -1 ? "lg:ml-20 lg:mr-auto xl:ml-0" : ""}`}>
           <ProjectCard
             img={card.img}
             alt={card.alt}

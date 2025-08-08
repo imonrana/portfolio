@@ -4,7 +4,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 const Training = () => {
   return (
     <section>
-        <div className='p-5 lg:p-0 lg:w-container mx-auto'>
+        <div className='p-5 lg:px-10 xl:p-0 xl:w-container mx-auto'>
             <SectionTitle className="space-y-5" subTitle="Professional Training" title= "Professional IT training form reputed IT centers"/>
         <div className='font-popins text-secondary h-full mt-[60px]'>
             <div className='space-y-12 relative after:absolute after:contents-[""] after:h-full after:w-[1px] after:bg-info after:top-0 after:left-7 z-[1] after:z-[-1]'>

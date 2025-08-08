@@ -12,7 +12,7 @@ const Protfolio = () => {
 
   return (
     <section className="my-[60px] md:my-[160px]">
-      <div className="p-5 lg:p-0 lg:w-container mx-auto">
+      <div className="p-5 lg:px-10 xl:p-0 xl:w-container mx-auto">
         <SectionTitle subTitle="Portfolio" title="What I Do for My Clients" />
         {/* 
             ===========navs tabs start==========

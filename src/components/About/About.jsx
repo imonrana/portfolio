@@ -10,13 +10,13 @@ import { SlBadge } from "react-icons/sl";
 const About = () => {
   return (
     <section className=" px-5 mt-[60px] lg:mt-[100px]">
-      <div className="  lg:w-container mx-auto">
+      <div className=" lg:px-10 xl:w-container mx-auto">
         <SectionTitle
           subTitle="About Me"
           title="A Passionate Developer Who 
         Loves to Code"
         />
-        <div className="flex flex-col md:flex-row justify-end md:gap-x-5 lg:gap-x-14 mt-[50px] md:mt-[74px]">
+        <div className="flex flex-col md:flex-row justify-end  md:gap-x-5 lg:gap-x-14 mt-[50px] md:mt-[74px]">
           <div className="relative">
           <figure className="relative">
             <img src={aboutModle} alt="aboutModle" />
@@ -35,21 +35,21 @@ const About = () => {
 
 
           {/* About info */}
-          <div className="md:w-[535px] font-popins mt-10 md:mt-0 ">
+          <div className="md:w-[535px] lg:w-[400px]  xl:w-[535px] font-popins mt-10 md:mt-0 ">
             <h6 className="font-semibold text-2xl lg:text-3xl text-secondary text-center md:text-left">
               About me
             </h6>
-            <p className="font-normal text-base text-info text-justify  m-auto my-5">
+            <p className="font-normal text-base text-info text-justify mx-auto lg:mx-0  xl:m-auto my-5 xl:my-5 lg:w-[420px] xl:w-auto">
               As a web developer, my objective is to make a positive impact on
               clients, co-workers, and the Internet using my skills and
               experience to design compelling and attractive websites.
             </p>
 
-            <table className="m-auto">
+            <table className="m-auto lg:m-0 xl:m-auto">
                 <tbody>
                     <tr className="font-popins text-secondary text-sm md:text-lg font-semibold">
                      <td className="border border-[#B4AFC6] ">
-                        <ul className="p-2 md:p-3 space-y-3 w-[130px] md:w-auto">
+                        <ul className="p-2 md:p-3 space-y-3 w-[130px] md:w-auto lg:w-[220px] xl:w-auto">
                         <li>
                             <span>Name</span>
                             <p className="font-normal  text-sm md:text-base text-info"> Md. Imon Rana</p>
@@ -66,7 +66,7 @@ const About = () => {
                         </td>
 
                         <td className="border border-[#B4AFC6] ">
-                        <ul className="p-2 md:p-5 space-y-3 w-[130px] md:w-auto">
+                        <ul className="p-2 md:p-5 space-y-3 w-[130px] md:w-auto lg:w-[220px] xl:w-auto">
                         <li>
                             <span>Address</span>
                             <p className="font-normal  text-sm md:text-base text-info"> Dhaka, Bangladesh</p>
