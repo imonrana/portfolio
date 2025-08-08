@@ -38,7 +38,7 @@ const Training = () => {
               <HiOutlineLightBulb  className=' absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl  '/>
               </div>
               <div className='space-y-3.5 w-[200px] md:w-auto  '>
-                <h4 className='font-semibold text-2xl'> Basic Computer Training<span className='text-sm text-info'>  (Oct 2022 - Dec 2022)</span></h4>
+                <h4 className='font-semibold text-2xl'> Basic Computer Training<span className='text-sm text-info'>  (April 2017 - July 2017)</span></h4>
                 <h5 className='font-semibold text-base '>Reliable Computer Institute & Training Center (RCITC), Mirpur-11</h5>
                 <p className='font-normal text-sm text-info md:w-[370px]'>Learn Microsoft Office Application & Bijoy Keyboard Typing.  </p>
               </div>

@@ -25,7 +25,7 @@ const Experience = () => {
       <FaBriefcase  className=' absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-3xl  '/>
       </div>
       <div className='space-y-3.5 w-[190px] pr-2 md:w-auto md:pr-0'>
-        <h4 className='font-semibold text-2xl ' >Computer Operator <span className='text-sm text-info'>(May 2021 - May 2022)</span></h4>
+        <h4 className='font-semibold text-2xl ' >Computer Operator <span className='text-sm text-info'>(May 2021 - Oct 2022)</span></h4>
         <h5 className='font-semibold text-base '>Babu Computer, Sirajganj.</h5>
         <p className='font-normal text-sm text-info md:w-[370px]'>Data Entry, Computer Compose, Online application submit ect.</p>
       </div>

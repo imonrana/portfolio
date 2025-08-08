@@ -84,7 +84,9 @@ const About = () => {
                     </tr>
                 </tbody>
             </table>
+            <a href="https://drive.google.com/uc?export=download&id=1_K3WscN7e3fq5BkFovPSSHO46D2XNBjn" download="Imon-Rana-CV">
             <Button className="mt-10 cursor-pointer block m-auto md:ml-0">Download  CV</Button>
+            </a>
           </div>
         </div>
       </div>
