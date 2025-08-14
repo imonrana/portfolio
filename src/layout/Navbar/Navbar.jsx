@@ -7,7 +7,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoGithub } from "react-icons/io";
 import { TiThMenu } from "react-icons/ti";
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 const Navbar = () => {
   const [navbg, setNavbg] = useState(false);
@@ -30,7 +30,9 @@ const Navbar = () => {
         <div className=' px-5 lg:px-10 xl:px-0  xl:w-container mx-auto flex flex-col md:flex-row md:justify-between md:items-center py-8'>
         {/* logo */}
        <div className='w-full md:w-1/5 flex md:block justify-between items-center'>
+       <Link  to="/">
             <img src={logo} alt="logo"/>
+       </Link>
             {
               show ?
             <RxCross2 className='text-blue-500 cursor-pointer text-2xl md:hidden'

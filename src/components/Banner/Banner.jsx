@@ -35,7 +35,7 @@ useEffect(()=>{
                   <Link to="/contact">
                  <Button className='mt-[30px] cursor-pointer block m-auto md:ml-0 font-medium'>Get Connected</Button>
                 </Link>
-                <a href='https://drive.google.com/file/d/1_K3WscN7e3fq5BkFovPSSHO46D2XNBjn/view?usp=sharing' target='_blank'>
+                <a href='https://drive.google.com/file/d/1PFral_yIR7qAhuXP1e0MTv7sOkoVsMDe/view?usp=sharing' target='_blank'>
                 <button type='button' className="mt-[30px] cursor-pointer block m-auto md:ml-0 font-medium py-[14px] lg:py-[18px] px-[26px]  lg:px-[39px]  rounded-3xl md:rounded-[30px] font-popins lg:text-xl text-black  hover:text-white relative after:absolute after:contents-[''] after:bg-white  after:h-full after:w-full after:bottom-0 after:left-0 hover:after:-bottom-[100%] hover:bg-primary transition-all after:duration-400 duration-400 overflow-hidden after:z-[-1] z-2"> 
                   View Resume 
                   </button>
